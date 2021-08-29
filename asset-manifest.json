@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.js": "/Insole/static/js/main.c829fdad.chunk.js",
+    "main.js.map": "/Insole/static/js/main.c829fdad.chunk.js.map",
+    "runtime-main.js": "/Insole/static/js/runtime-main.4e3125cb.js",
+    "runtime-main.js.map": "/Insole/static/js/runtime-main.4e3125cb.js.map",
+    "static/js/2.10b5c508.chunk.js": "/Insole/static/js/2.10b5c508.chunk.js",
+    "static/js/2.10b5c508.chunk.js.map": "/Insole/static/js/2.10b5c508.chunk.js.map",
+    "index.html": "/Insole/index.html",
+    "static/js/2.10b5c508.chunk.js.LICENSE.txt": "/Insole/static/js/2.10b5c508.chunk.js.LICENSE.txt",
+    "static/media/Livre.916df1cb.png": "/Insole/static/media/Livre.916df1cb.png",
+    "static/media/baixo.8ae0f394.gif": "/Insole/static/media/baixo.8ae0f394.gif",
+    "static/media/banner.6530da58.gif": "/Insole/static/media/banner.6530da58.gif",
+    "static/media/lupa.94f31a26.png": "/Insole/static/media/lupa.94f31a26.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4e3125cb.js",
+    "static/js/2.10b5c508.chunk.js",
+    "static/js/main.c829fdad.chunk.js"
+  ]
+}
