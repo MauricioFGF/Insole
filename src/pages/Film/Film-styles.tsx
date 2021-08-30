@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Main = styled.section`
     display:flex;
-    flex-direction:column;  
+    flex-direction:column; 
 `;
 
 export const NavBar = styled.section`
@@ -57,7 +57,11 @@ export const ContainerBlur = styled.section`
 
 export const ContainerImg = styled.img`
     padding:30px;
-    border-radius: 45px; 
+    border-radius: 45px;
+    @media (max-width:500px){
+        font-size:16px;
+        transform:scale(0.88)
+    } 
 `;
 
 export const ContainerData = styled.section` 
@@ -73,17 +77,27 @@ export const ContainerData = styled.section`
 export const Title = styled.h1` 
     font-weight:bolder;
     font-size:40px;
+    @media (max-width:950px){
+        width:100%;
+        font-size:30px;
+    }
 `;
 
 export const Genrer = styled.p` 
     color:#363333;
     font-weight:light;
     font-size:18px;
+    @media (max-width:950px){
+        font-size:16px;
+    }
 `;
 
 export const SinopseTitle = styled.h6` 
     margin-top:20px;
     font-size:22px;
+    @media (max-width:950px){
+        font-size:20px;
+    }
 `;
 
 export const Sinopse = styled.p` 
@@ -91,10 +105,12 @@ export const Sinopse = styled.p`
     max-width:90%;
     font-weight:200;
     font-size:18px;
+    @media (max-width:950px){
+        font-size:16px;
+    }
 `;
 
 export const ContainerAverage = styled.section` 
-    width:auto;
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -111,7 +127,9 @@ export const TextAverage = styled.p`
     font-size:20px;
     color:black;
     @media (max-width:950px){
-        margin-right:10px
+        margin-right:10px;
+        font-size:14px;
+        margin-bottom:5px;
     }
 `;
 
@@ -124,12 +142,19 @@ export const CardAverage = styled.section`
     border-radius:40px;
     border:#000000 2px solid;
     background-color:black;
+    @media (max-width:950px){
+        width:50px;
+        height:50px;
+    }
 `;
 
 export const Average = styled.p`
     font-weight:bold;
     font-size:40px;
     color:white;
+    @media (max-width:950px){
+        font-size:25px;
+    }
 `;
 
 export const TextIdade = styled.p`
@@ -142,6 +167,8 @@ export const TextIdade = styled.p`
         margin-top:0;
         margin-left:10px;
         margin-right:10px;
+        margin-bottom:5px;
+        font-size:14px;
     }
 `;
 
@@ -151,6 +178,8 @@ export const ContainerIdade = styled.img`
     border: 2px solid #363535;
     border-radius:10px;
     @media (max-width:950px){
+        width:50px;
+        height:50px;
         margin:40px 0;
     }
 `;

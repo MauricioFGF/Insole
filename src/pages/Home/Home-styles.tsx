@@ -8,7 +8,7 @@ export const Main = styled.section`
 export const Banner = styled.section`
     width:100vw;
     min-height:600px;
-    height:90vh;
+    height:95vh;
     display:flex;
     flex-direction:column;
     background-size:cover;
@@ -17,7 +17,7 @@ export const Banner = styled.section`
 export const  BannerBlur= styled.section`
     position:absolute;
     width:100vw;
-    height:90vh;  
+    height:95vh;  
     min-height:600px; 
     background-color:#00000094;
 `;
@@ -26,32 +26,43 @@ export const  BannerTitle= styled.p`
     z-index:10;
     color:white;
     font-weight:bold;
-    font-size:5vw;
-    margin-left:100px;
-    margin-top:120px;
+    font-size:5em;
+    margin:120px 20px 0 100px;
+    @media (max-width:500px){
+        margin-left:50px
+    }
 `;
 
 export const  BannerDescription= styled.p`
     z-index:10;
     color:white;
-    font-size:1.5vw;
-    margin-left:100px;
+    font-size:1em;
+    margin: 0 20px 0 100px;
+    @media (max-width:500px){
+        margin-left:50px
+    }
 `;
 
 export const  BannerArrow= styled.a`
     position: relative;
-    top:200px;
+    top:calc(95vh - 60vh );
     z-index:10;
     display:flex;
     justify-content:center;
     align-items:flex-end;
+    @media (max-width:800px){
+        top:40px;
+    }
+    
 `;
 
 export const  Arrow= styled.img`
-    width:8vw;
-    min-width:60px;
-    height:8vw;
-    min-height:60px;
+    width:8em;
+    height:8em;
+    @media (max-width:800px){
+        width:5em;
+        height:5em;
+    }
 `;
 
 export const NavBar = styled.section`
