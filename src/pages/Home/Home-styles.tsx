@@ -144,7 +144,10 @@ export const Search = styled.input`
     margin-bottom:40px;
     outline:none;
     border:none;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;      
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;  
+    @media (max-width:500px){
+        border: 1px solid #0000004c;
+    }    
 `;
 
 export const SearchButton = styled.button`   
